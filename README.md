@@ -8,7 +8,7 @@ sudo mkdir -p /etc/portage/repos.conf
 
 Add the following /etc/portage/repos.conf/local.conf
 ```
-[mmikitka]
+[mmikitka-gentoo-overlay]
 location = $DESTDIR
 masters = gentoo
 auto-sync = no
